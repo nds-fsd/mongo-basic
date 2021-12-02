@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:26017/nuclio');
+mongoose.connect('mongodb://localhost:27017/nuclio');
 
 
 const mongo = mongoose.connection;
